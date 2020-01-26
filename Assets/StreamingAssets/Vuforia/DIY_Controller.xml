@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="image_2020-01-19_14-59-50" size="0.100000 0.172727"/>
+        <ImageTarget name="image_2020-01-19_01-53-46" size="0.120000 0.202623"/>
+        <ImageTarget name="Cube_Controller.Front" size="0.060000 0.060000"/>
+        <ImageTarget name="Cube_Controller.Bottom" size="0.060000 0.060000"/>
+        <ImageTarget name="Cube_Controller.Back" size="0.060000 0.060000"/>
+        <ImageTarget name="Cube_Controller.Left" size="0.060000 0.060000"/>
+        <ImageTarget name="Cube_Controller.Right" size="0.060000 0.060000"/>
+        <ImageTarget name="Cube_Controller.Top" size="0.060000 0.060000"/>
+        <MultiTarget name="Cube_Controller">
+            <Part name="Cube_Controller.Left" translation="-0.029999999329447746 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cube_Controller.Right" translation="0.029999999329447746 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cube_Controller.Front" translation="0 0 0.029999999329447746" rotation="AD: 1 0 0 0"/>
+            <Part name="Cube_Controller.Back" translation="0 0 -0.029999999329447746" rotation="AD: 0 1 0 180"/>
+            <Part name="Cube_Controller.Top" translation="0 0.029999999329447746 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cube_Controller.Bottom" translation="0 -0.029999999329447746 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

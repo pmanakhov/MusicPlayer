@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWV0NnpXTC8vLy8vQUFBQUtCdStZbktTaTBuM2pONUpDU1p2M2VKd3diN0NQWlpoenRQWVJ5QjNGNmVaVjdhbWJQMTQxZ0svNGdjYi9JRExTdlFBUlR5SUp6eFRyQnZyek9SWHhJRXdHM3FiZXVVdTNWMmJxdWh3REQ2Mys0U01IcXh0Nkdhdk1yOThXWFIxdDF4RU9LeVRLUkVlbXVPcExUcWRjQnc0ZUpkWTZuMkwwRWlBWm90UGVlV05vWVMzVm1nZDE5OENTMS85K0pwWE1reGZsR0huZERLL3Qwc05rcmRodFI1NHNETVV5OU1jVzd2SkxyazNMVjRCMGdUcEpsdWFVemZxNXVvYlpVVURJQ2JRbjRTMlZCVE1GUDE0bUVtbktTTXFsb09JNlIzM3dlZXJlOHZNRktQcC9ySk9kbHh2UjlpQVhKSFpERk40K29PbzlrZVZpWnBlNnJMRmF4UE5VcWRibDR0N0VxQWdXWENwY3U3ZHRRaEk=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 10
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.3.8
+    eulaAcceptedVersions: '{"Values":["8.5","8.6","8.1","8.3","7.2","7.5"]}'
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 0
+    stereoFramework: 0
+    seeThroughConfiguration: 0
+    viewerName: VR ONE
+    viewerManufacturer: Zeiss
+    useCustomViewer: 1
+    customViewer:
+      Version: 0
+      Name: VR BOX 2
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0.037
+      InterLensDistance: 0.062
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0.035
+      DistortionCoefficients: {x: 0.1, y: 1}
+      FieldOfView: {x: 90, y: 90, z: 90, w: 90}
+      ContainsMagnet: 0
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    trackingMode: 1
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: HD Webcam
+    turnOffWebCam: 0
+    renderTextureLayer: 30
